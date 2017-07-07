@@ -7,7 +7,7 @@ var works = {
         "description": "Soy un desarrollador front-end dedicado en cuerpo y alma a la programación. Desde un ordenador se pueden hacer cosas realmente asombrosas!!"
     }],
     display: function() {
-        for (job in works.jobs) {
+        for (var job in works.jobs) {
             $("#workExperience").append(HTMLworkStart);
             var formattedEmployer = HTMLworkEmployer.replace("%data%", works.jobs[job].employer);
             var formattedTitle = HTMLworkTitle.replace("%data%", works.jobs[job].title);
