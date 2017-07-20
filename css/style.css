@@ -208,7 +208,7 @@ span {
 
 #map {
     display: block;
-    height: 100%;
+    height: calc(100% - 2em);
     margin: 0 5% 2em 5%;
 }
 
